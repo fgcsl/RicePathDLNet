@@ -1,0 +1,161 @@
+
+
+
+<?php include ("header.php"); ?>
+
+
+
+
+<section class="browse">
+<div class="b-head text-center">
+	<h1><b>Browse</b></h1>
+</div>
+<!------ Xantho ---------->
+
+<div class="counter">
+	<h2>Xanthomonas</h2>
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="genes">
+                    <p class="counter-count">646</p>
+                    <p class="gene-p">Genes</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="interactions">
+                    <p class="counter-count">6940</p>
+                    <p class="interactions-p">Gene-Interactions</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="module">
+                    <p class="counter-count">31</p>
+                    <p class="module-p">Modules</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="mmi">
+                    <p class="counter-count">11</p>
+                    <p class="mmi-p">Module-Module Intractions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------ Xantho end---------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<?php include 'footer.php'; ?>
+
+
+
+<style>
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+	margin-top: 15px;
+}
+.genes,.interactions,.module,.mmi
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.gene-p,.interactions-p,.mmi-p,.module-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+section.browse {
+	margin-top: 5% !important;
+	}
+
+</style>
+
+
+<script>
+
+$('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
+</script>

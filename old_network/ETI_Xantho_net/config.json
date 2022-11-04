@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "fgcsl.co.in",
+    "text": "Abhishek khatri"
+  },
+  "text": {
+    "more": "",
+    "intro": "ETI-Xoo Network Model includes 31 shared and distinct modules containing 646 genes with 6941 interactions",
+    "title": "ETI-Xanthomonas (ETI-Xoo) Modular Network"
+  },
+  "legend": {
+    "edgeLabel": "Gene Intractions ",
+    "colorLabel": "Module",
+    "nodeLabel": "Gene"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "modularity class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 2
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

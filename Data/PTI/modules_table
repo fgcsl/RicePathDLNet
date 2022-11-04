@@ -1,0 +1,41 @@
+Module	Immunity	GO	Description	Response
+M17	PTI	GO:0045449	regulation of transcription	Transcriptional Regulation
+M30	PTI	GO:0006470	protein dephosphorylation	Signal Transduction
+M35	PTI	GO:0016310	phosphorylation	Signal Transduction
+M48	PTI	GO:0008150 	biological_process	Growth and Development
+M59	PTI	GO:0019320	hexose catabolic process	Growth and Development
+M66	PTI	GO:0031326	regulation of cellular biosynthetic process	Growth and Development
+M88	PTI	GO:0006188	IMP biosynthetic process	Growth and Development
+M140	PTI	GO:0043087 	regulation of GTPase activity	Signal Transduction
+M202	PTI	GO:0032259 	methylation	Growth and Development
+M216	PTI	GO:0006364	rRNA processing	Transcriptional Regulation
+M223	PTI	GO:0006551	leucine biosynthetic process	Signal Transduction
+M237	PTI	GO:0031326	regulation of cellular biosynthetic process	Growth and Development
+M239	PTI	GO:0010468 	regulation of gene expression	Transcriptional Regulation
+M265	PTI	GO:0050896	response to stimulus	Defense Response
+M299	PTI	GO:0006355 	regulation of transcription, DNA-dependent	Transcriptional Regulation
+M2	PTI-Xantho	GO:0006350	transcription	Transcriptional Regulation
+M13	PTI-Xantho	GO:0045449	regulation of transcription	Transcriptional Regulation
+M68	PTI-Xantho	GO:0006396 	RNA processing	Transcriptional Regulation
+M71	PTI-Xantho	GO:0007264 	small GTPase mediated signal transduction	Signal Transduction
+M79	PTI-Xantho	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M85	PTI-Xantho	GO:0009058 	biosynthetic process	Growth and Development
+M86	PTI-Xantho	GO:0046488	phosphatidylinositol metabolic process	Signal Transduction
+M95	PTI-Xantho	GO:0006793	phosphorus metabolic process	Growth and Development
+M201	PTI-Xantho	GO:0009058 	biosynthetic process	Growth and Development
+M289	PTI-Xantho	GO:0006914 	autophagy	Defense response
+M301	PTI-Xantho	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M27	PTI-Magna	GO:0016310	phosphorylation	Signal Transduction
+M46	PTI-Magna	GO:0008202	steroid metabolic process	hormone
+M54	PTI-Magna	GO:0016192	vesicle-mediated transport	Defense response
+M92	PTI-Magna	GO:0032502	developmental process	Growth or Development
+M119	PTI-Magna	GO:0006888	ER to Golgi vesicle-mediated transport	Defense response
+M143	PTI-Magna	GO:0019219 	regulation of nucleobase-containing compound metabolic process	Other
+M196	PTI-Magna	GO:0006396	RNA processing	Transcriptional Regulation
+M205	PTI-Magna	GO:0032312	regulation of ARF GTPase activity	Signal Transduction
+M212	PTI-Magna	GO:0006974	response to DNA damage stimulus	Defense Response
+M308	PTI-Magna	GO:0031326	regulation of cellular biosynthetic process	Growth and Development
+M36	PTI-Xantho-Magna	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M58	PTI-Xantho-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M172	PTI-Xantho-Magna	GO:0009081 	branched-chain amino acid metabolic process	Defense response
+

@@ -1,0 +1,24 @@
+awk '{print $0,"> "$1}' module_xantho  | awk '{$1=$2=$3=""}1' | sed 's/   /echo "/g' | sed 's/ > M/" > M_/g' | sh && sed -i  's/ /\n/g' M*
+
+
+awk '{print $1}' module_xantho | sed 's/M/M_/g' > module_list
+
+for i in M*; do sed -i  "s/$/\t$i/" "$i"; done
+
+for i in M*; do echo $i; done  | sed 's/_/ /g' | sort -nk 2 | sed 's/ /_/g' | sed 's/^/head -1 /g' |sh  | awk '{$1=""}1' | sed 's/^ //g; s/.*/"&"/g' > modules_function
+
+#seq  0 38 | sed "s/.*/awk \'\{print \$0\,&\'\}  /g" > seq_no
+seq  0 38 | sed "s/.*/awk \'\{print \$1\,&,/g" > 1
+paste 1  modules_function |sed "s/\t //g; s/$/\}\'/g" > 2
+paste 2 module_list |sh > ALL_FINAL_NODES.csv
+
+awk '{print $1","$2","}' ALL_FINAL_NODES.csv > 3
+awk '{$1=$2=""}1' ALL_FINAL_NODES.csv  > 4
+
+paste 3 4  | sed 's/\t  //g; s/ M_/,/g'  > ALL_NODES_XANTHO.csv
+
+
+paste seq_no module_list  |sh > All_node.csv
+
+
+sed 's/,/ /g' All_node.csv | awk '{print $1}'  |sed '1d' | sed 's/.*/grep "&" modules_314_FINAL.csv/g' |sh | awk '!q[$1]++' | awk -F, '{print "sed -i '"'"'s/$/ " $2"/g'"'"'",$1}' |sh

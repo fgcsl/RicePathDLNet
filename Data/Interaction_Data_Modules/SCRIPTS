@@ -1,0 +1,9 @@
+:%s/.*/sed 's\/$\/ &\/g' /g
+
+
+
+
+
+#script for make module data set 
+
+ls ETI_Module_* | sed 's/_/ /g' | sort -nk 3 | sed 's/ /_/g' > list_module && for i in {0..30}; do echo $i; done > counting && sed "s/.*/sed 's\/$\/ &\/g'/g" counting > counting_script && paste counting_script list_module > SCRIPT_MODULE_COUNTING && sed 's/^/> module_/g' counting > list_new_module && paste SCRIPT_MODULE_COUNTING list_new_module | sh && cat module* | sort -nk 2 > all_modules

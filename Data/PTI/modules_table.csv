@@ -1,0 +1,40 @@
+Module,GO,Description,Response
+Module 2,GO:0006350,transcription,Transcriptional Regulation
+Module 13,GO:0045449,regulation of transcription,Transcriptional Regulation
+Module 17,GO:0045449,regulation of transcription,Transcriptional Regulation
+Module 27,GO:0016310,phosphorylation,Signal Transduction
+Module 30,GO:0006470,protein dephosphorylation,Signal Transduction
+Module 35,GO:0016310,phosphorylation,Signal Transduction
+Module 36,GO:0010468,regulation of gene expression,Transcriptional Regulation
+Module 46,GO:0008202,steroid metabolic process,Hormone
+Module 48,GO:0008150,biological_process,Growth and Development
+Module 54,GO:0016192,vesicle-mediated transport,Defense response
+Module 58,GO:0006468,protein phosphorylation,Signal Transduction
+Module 59,GO:0019320,hexose catabolic process,Growth and Development
+Module 66,GO:0031326,regulation of cellular biosynthetic process,Growth and Development
+Module 68,GO:0006396,RNA processing,Transcriptional Regulation
+Module 71,GO:0007264,small GTPase mediated signal transduction,Signal Transduction
+Module 79,GO:0006350,transcription DNA-dependent,Transcriptional Regulation
+Module 85,GO:0009058,biosynthetic process,Growth and Development
+Module 86,GO:0046488,phosphatidylinositol metabolic process,Signal Transduction
+Module 88,GO:0006188,IMP biosynthetic process,Growth and Development
+Module 92,GO:0032502,developmental process,Growth or Development
+Module 95,GO:0006793,phosphorus metabolic process,Growth and Development
+Module 119,GO:0006888,ER to Golgi vesicle-mediated transport,Defense response
+Module 140,GO:0043087,regulation of GTPase activity,Signal Transduction
+Module 143,GO:0019219,regulation of nucleobase-containing compound metabolic process,Growth and Development
+Module 172,GO:0009081,branched-chain amino acid metabolic process,Defense response
+Module 196,GO:0006396,RNA processing,Transcriptional Regulation
+Module 201,GO:0009058,biosynthetic process,Growth and Development
+Module 202,GO:0032259,methylation,Growth and Development
+Module 205,GO:0032312,regulation of ARF GTPase activity,Signal Transduction
+Module 212,GO:0006974,response to DNA damage stimulus,Defense Response
+Module 216,GO:0006364,rRNA processing,Transcriptional Regulation
+Module 223,GO:0006551,leucine biosynthetic process,Signal Transduction
+Module 237,GO:0031326,regulation of cellular biosynthetic process,Growth and Development
+Module 239,GO:0010468,regulation of gene expression,Transcriptional Regulation
+Module 265,GO:0050896,response to stimulus,Defense Response
+Module 289,GO:0006914,autophagy,Defense response
+Module 299,GO:0006355,regulation of transcription DNA-dependent,Transcriptional Regulation
+Module 301,GO:0006350,transcription DNA-dependent,Transcriptional Regulation
+Module 308,GO:0031326,regulation of cellular biosynthetic process,Growth and Development

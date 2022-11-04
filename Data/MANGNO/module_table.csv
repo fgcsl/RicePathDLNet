@@ -1,0 +1,42 @@
+Module	Immunity	GO	Description	Response
+M1	Magna	GO:0045449	regulation of transcription	Transcriptional Regulation
+M3	Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M5	Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M31	Magna	GO:0016071	mRNA metabolic process	Transcriptional Regulation
+M57	Magna	GO:0007264	small GTPase mediated signal transduction	Signal Transduction
+M120	Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M135	Magna	GO:0006888	ER to Golgi vesicle-mediated transport	Defense response
+M136	Magna	GO:0006508 	proteolysis	Defense response
+M138	Magna	GO:0006412 	biological_process	Growth and Development
+M142	Magna	GO:0010468 	regulation of gene expression	Transcriptional Regulation
+M200	Magna	GO:0016072	rRNA processing	Transcriptional Regulation
+M225	Magna	GO:0009127	purine nucleoside monophosphate biosynthetic process	Growth and Development
+M234	Magna	GO:0045449 	regulation of transcription	Transcriptional Regulation
+M251	Magna	GO:0006471	protein ADP-ribosylation	Defense Response
+M253	Magna	GO:0006366 	transcription from RNA polymerase II promoter	Transcriptional Regulation
+M262	Magna	GO:0006351	transcription, DNA-dependent	Transcriptional Regulation
+M300	Magna	GO:0045449	regulation of transcription	Transcriptional Regulation
+M301	Magna	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M314	Magna	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M27	PTI-Magna	GO:0016310	phosphorylation	Signal Transduction
+M46	PTI-Magna	GO:0008202	steroid metabolic process	hormone
+M54	PTI-Magna	GO:0016192	vesicle-mediated transport	Defense response
+M92	PTI-Magna	GO:0032502	developmental process	Growth or Development
+M119	PTI-Magna	GO:0006888	ER to Golgi vesicle-mediated transport	Defense response
+M143	PTI-Magna	GO:0019219 	regulation of nucleobase-containing compound metabolic process	Other
+M196	PTI-Magna	GO:0006396	RNA processing	Transcriptional Regulation
+M205	PTI-Magna	GO:0032312	regulation of ARF GTPase activity	Signal Transduction
+M212	PTI-Magna	GO:0006974	response to DNA damage stimulus	Defense Response
+M308	PTI-Magna	GO:0031326	regulation of cellular biosynthetic process	Growth and Development
+M7	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M21	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M50	Xanto-Magna	GO:0022403	cell cycle phase	Growth and Development
+M80	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M174	Xanto-Magna	GO:0006168	adenine salvage	Growth and Development
+M235	Xanto-Magna	GO:0009725	response to hormone stimulus	hormone
+M238	Xanto-Magna	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M261	Xanto-Magna	GO:0016192	vesicle-mediated transport	Defense Response
+M36	PTI-Xantho-Magna	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M58	PTI-Xantho-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M172	PTI-Xantho-Magna	GO:0009081 	branched-chain amino acid metabolic process	Defense response
+

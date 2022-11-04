@@ -1,0 +1,45 @@
+#Data set 
+1. node.csv file
+id,Modularity Class
+
+LOC_Os01g04800,1
+LOC_Os01g19970,1
+LOC_Os01g42970,1
+LOC_Os01g43590,1
+LOC_Os01g47360,1
+LOC_Os03g17070,2
+LOC_Os03g40700,2
+LOC_Os03g62500,2
+LOC_Os04g39444,3
+LOC_Os05g24970,3
+LOC_Os07g07220,3
+LOC_Os07g41790,3
+LOC_Os10g31900,3
+LOC_Os10g32880,3
+
+
+2. edges.csv file
+Source,Target,Type,Weight
+
+LOC_Os07g35370,LOC_Os01g64630,undirected,0.1
+
+
+
+#script for make module data set 
+
+ls ETI_Module_* | sed 's/_/ /g' | sort -nk 3 | sed 's/ /_/g' > list_module && for i in {0..30}; do echo $i; done > counting && sed "s/.*/sed 's\/$\/ &\/g'/g" counting > counting_script && paste counting_script list_module > SCRIPT_MODULE_COUNTING && sed 's/^/> module_/g' counting > list_new_module && paste SCRIPT_MODULE_COUNTING list_new_module | sh && cat module* | sort -nk 2 > all_modules
+
+
+#make list
+sed -i 's/.*/<li> & <\/li>/g' *
+
+#check list
+for i in $ls *; do echo $i; done  | sed 's/_/ /g' |sort -nk 3 | sed 's/ /_/g'
+
+#up
+sed -i '1 i\\<div data-role="collapsible">\n<h1>Module 54 <span> (GO:0016192)</span></h1>' *
+
+#down
+sed -i '$s/$/\n<\/div>/' *
+
+cat ETI_Module_7 ETI_Module_12 ETI_Module_58 ETI_Module_71 ETI_Module_80 ETI_Module_86 ETI_Module_120 ETI_Module_205 > html_modules_code

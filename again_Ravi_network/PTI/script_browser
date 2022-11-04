@@ -1,0 +1,5 @@
+
+
+cat Signal  | sed 's/_/ /' | sort -nk 2 | sed 's/ /_/g'
+
+sed "s/^/sed \'s\/.*\/<li>\&<\\\\\/li>\/g' /g" Signal  | sed "s/$/ \| sed '1 i\\<div data-role\=\"collapsible\">\\\n<h1>Module  <span> \(\)<\/span><\/h1>' \| sed '\$a<\/div>' /g" |sh

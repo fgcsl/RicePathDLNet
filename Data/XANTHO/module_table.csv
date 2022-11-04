@@ -1,0 +1,41 @@
+Module	Immunity	GO	Description	Response
+M4	Xantho	GO:0045449	regulation of transcription	Transcriptional Regulation
+M14	Xantho	GO:0045449	regulation of transcription	Transcriptional Regulation
+M24	Xantho	GO:0031497 	chromatin assembly factor	Defense Response
+M26	Xantho	GO:0006352	DNA-dependent transcription, initiation	Transcriptional Regulation
+M32	Xantho	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M34	Xantho	GO:0045449	regulation of transcription	Transcriptional Regulation
+M69	Xantho	GO:0030029 	actin cytoskeleton organization	Defense response
+M72	Xantho	GO:0006355	regulation of transcription, DNA-dependent	Transcriptional Regulation
+M109	Xantho	GO:0016071	mRNA metabolic process	Transcriptional Regulation
+M116	Xantho	GO:0032012 	regulation of ARF protein signal transduction	Signal Transduction
+M131	Xantho	GO:0043631	RNA polyadenylation	Transcriptional Regulation
+M191	Xantho	GO:0031326 	regulation of cellular biosynthetic process	Growth and Development
+M206	Xantho	GO:0007165	signal transduction	Signal Transduction
+M224	Xantho	GO:0045454	cell redox homeostasis	Signal Transduction
+M245	Xantho	GO:0006351 	transcription, DNA-dependent	Transcriptional Regulation
+M290	Xantho	GO:0022403 	cell cycle phase	Growth and Development
+M307	Xantho	GO:0006351	transcription, DNA-dependent	Transcriptional Regulation
+M2	PTI-Xantho	GO:0006350	transcription	Transcriptional Regulation
+M13	PTI-Xantho	GO:0045449	regulation of transcription	Transcriptional Regulation
+M68	PTI-Xantho	GO:0006396 	RNA processing	Transcriptional Regulation
+M71	PTI-Xantho	GO:0007264 	small GTPase mediated signal transduction	Signal Transduction
+M79	PTI-Xantho	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M85	PTI-Xantho	GO:0009058 	biosynthetic process	Growth and Development
+M86	PTI-Xantho	GO:0046488	phosphatidylinositol metabolic process	Signal Transduction
+M95	PTI-Xantho	GO:0006793	phosphorus metabolic process	Growth and Development
+M201	PTI-Xantho	GO:0009058 	biosynthetic process	Growth and Development
+M289	PTI-Xantho	GO:0006914 	autophagy	Defense response
+M301	PTI-Xantho	GO:0006350	transcription, DNA-dependent	Transcriptional Regulation
+M7	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M21	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M50	Xanto-Magna	GO:0022403	cell cycle phase	Growth and Development
+M80	Xanto-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M174	Xanto-Magna	GO:0006168	adenine salvage	Growth and Development
+M235	Xanto-Magna	GO:0009725	response to hormone stimulus	hormone
+M238	Xanto-Magna	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M261	Xanto-Magna	GO:0016192	vesicle-mediated transport	Defense Response
+M36	PTI-Xantho-Magna	GO:0010468	regulation of gene expression	Transcriptional Regulation
+M58	PTI-Xantho-Magna	GO:0006468	protein phosphorylation	Signal Transduction
+M172	PTI-Xantho-Magna	GO:0009081 	branched-chain amino acid metabolic process	Defense response
+

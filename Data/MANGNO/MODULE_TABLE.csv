@@ -1,0 +1,40 @@
+Module 1,GO:0045449,regulation of transcription,Transcriptional Regulation
+Module 3,GO:0006468,protein phosphorylation,Signal Transduction
+Module 5,GO:0006468,protein phosphorylation,Signal Transduction
+Module 7,GO:0006468,protein phosphorylation,Signal Transduction
+Module 21,GO:0006468,protein phosphorylation,Signal Transduction
+Module 27,GO:0016310,phosphorylation,Signal Transduction
+Module 31,GO:0016071,mRNA metabolic process,Transcriptional Regulation
+Module 36,GO:0010468,regulation of gene expression,Transcriptional Regulation
+Module 46,GO:0008202,steroid metabolic process,Hormone
+Module 50,GO:0022403,cell cycle phase,Growth and Development
+Module 54,GO:0016192,vesicle-mediated transport,Defense response
+Module 57,GO:0007264,small GTPase mediated signal transduction,Signal Transduction
+Module 58,GO:0006468,protein phosphorylation,Signal Transduction
+Module 80,GO:0006468,protein phosphorylation,Signal Transduction
+Module 92,GO:0032502,developmental process,Growth or Development
+Module 119,GO:0006888,ER to Golgi vesicle-mediated transport,Defense response
+Module 120,GO:0006468,protein phosphorylation,Signal Transduction
+Module 135,GO:0006888,ER to Golgi vesicle-mediated transport,Defense response
+Module 136,GO:0006508,proteolysis,Defense response
+Module 138,GO:0006412,biological_process,Growth and Development
+Module 142,GO:0010468,regulation of gene expression,Transcriptional Regulation
+Module 143,GO:0019219,regulation of nucleobase-containing compound metabolic process,Other
+Module 172,GO:0009081,branched-chain amino acid metabolic process,Defense response
+Module 174,GO:0006168,adenine salvage,Growth and Development
+Module 196,GO:0006396,RNA processing,Transcriptional Regulation
+Module 200,GO:0016072,rRNA processing,Transcriptional Regulation
+Module 205,GO:0032312,regulation of ARF GTPase activity,Signal Transduction
+Module 212,GO:0006974,response to DNA damage stimulus,Defense Response
+Module 225,GO:0009127,purine nucleoside monophosphate biosynthetic process,Growth and Development
+Module 234,GO:0045449,regulation of transcription,Transcriptional Regulation
+Module 235,GO:0009725,response to Hormone stimulus,Hormone
+Module 238,GO:0010468,regulation of gene expression,Transcriptional Regulation
+Module 251,GO:0006471,protein ADP-ribosylation,Defense Response
+Module 253,GO:0006366,transcription from RNA polymerase II promoter,Transcriptional Regulation
+Module 261,GO:0016192,vesicle-mediated transport,Defense Response
+Module 262,GO:0006351,transcription DNA-dependent,Transcriptional Regulation
+Module 300,GO:0045449,regulation of transcription,Transcriptional Regulation
+Module 301,GO:0006350,transcription DNA-dependent,Transcriptional Regulation
+Module 308,GO:0031326,regulation of cellular biosynthetic process,Growth and Development
+Module 314,GO:0006350,transcription DNA-dependent,Transcriptional Regulation
